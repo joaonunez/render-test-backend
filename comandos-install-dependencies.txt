@@ -1,0 +1,10 @@
+pipenv shell
+pipenv install flask flask-sqlalchemy flask-migrate flask-cors
+
+luego de terminar la estructura de base de datos en models ejecutar:
+
+flask db init 
+flask db migrate
+flask db upgrade
+
+luego serializar tablas
